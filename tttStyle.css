@@ -1,0 +1,10 @@
+table{
+  width:60vw;
+  height:60vw;
+  border-collapse: collapse;
+  border: 3vw solid white;
+}
+td {
+  text-align: center;
+  border: 2vw solid black;
+}
