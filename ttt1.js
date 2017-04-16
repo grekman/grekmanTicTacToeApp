@@ -35,18 +35,6 @@ function isBlank(cellIndex) {
 }
 
 
-
-/*function isTie() {
-  for (var i = 0; i < 9; i++) {
-    console.log("moves[" + i + "]=" + moves[i]);
-    if (typeof moves[i] == 'undefined' || null === moves[i] ) {
-      return false;
-    }
-  }
-  return true;
-}*/
-
-
 function reset() {
   for (var i = 0; i <= moves.length; i++) {
     if (moves[i] !== undefined) {
@@ -64,6 +52,7 @@ function reset() {
 gameController.addEventListener("click", function() {
   reset();
 });
+
 for (var i = 0; i < ticTacToeCells.length; i++) {
     addClickHandler(ticTacToeCells[i], i);
 }
