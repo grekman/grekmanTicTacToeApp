@@ -2,9 +2,11 @@ table{
   width:60vh;
   height:60vh;
   border-collapse: collapse;
-  border: 3vh solid white;
+  border: 2vh solid white;
 }
 td {
+  width:18vh;
+  height:18vh;
   text-align: center;
-  border: 2vh solid black;
+  border: 1vh solid black;
 }
